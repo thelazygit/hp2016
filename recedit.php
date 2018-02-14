@@ -185,7 +185,7 @@
 				}
 			$sql = "CALL saveDisplay($recid, '".$_SESSION['username']."')";
 			$result = $conn->query($sql);
-			echo "<p>Record $recid has been deleted from the database. For your convenience, it there was a LCD monitor, the LCD monitor has been added as a new record under ICT department, ICT Stores.</p>
+			echo "<p>Record $recid has been deleted from the database. For your convenience, if there was a LCD monitor, the LCD monitor has been added as a new record under ICT department, ICT Stores.</p>
 					<u><b>IMPORTANT</b></u>: If you want to assign the LCD monitor to another PC, you MUST edit the monitor record and add the PC,<br>as you cannot add the monitor record to a PC record. This is a quirk that will  be addressed another time.<br>If the PC record already exists, delete the record and add the pc detail to the monitor record.";
 		}
 	}
